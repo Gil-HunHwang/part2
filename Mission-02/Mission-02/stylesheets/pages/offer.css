@@ -1,0 +1,113 @@
+/* 오늘의 쇼핑 제안 */
+header {
+    display: flex;
+    width: 1022px;
+    height: auto;
+    margin: 100px auto 48px auto;
+}
+
+header h1 {
+    margin: 0px;
+}
+
+header img {
+    width: 176px;
+    height: 40px;
+}
+
+section {
+    width: 1022px;
+    margin: 0 auto;
+}
+
+section h2{
+    margin: 0;
+    background-image: url("/assets/icon/shopping.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+}
+
+article{
+    margin: 24px auto 30px auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+article .list{
+    display: flex;
+    position: relative;
+}
+
+article .list-item {
+    width: 200px;
+    height: 270px;
+    position: relative;
+    padding-top: 14px;
+    font-size: 14px;
+}
+
+article .list-item a{
+    display: inline-block;
+    width: 200px;
+    height: 270px;
+}
+
+article .list-img {
+    margin: auto;
+    width: 160px;
+    height: 160px;
+}
+
+.warp {
+    border: 1px solid red;
+    margin: 10px 14px 14px ;
+    text-align: left;
+    
+}
+
+.star em{
+    background-image: url(/assets/sprites/rating-stars.png);  
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 68px;
+    height: 152px;
+}
+
+.star em[] {
+    margin-top: -83%;
+}
+
+.star {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+section img{
+    border: 0;
+    padding: 0;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+}
+
+.table{
+    display: flex;
+    position: absolute;
+    background-color: red;
+    width: 53px;
+    height: 30px;
+    color: white;
+    border-radius: 0px 0px 4px 0px;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+}
